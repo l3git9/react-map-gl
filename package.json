@@ -4,14 +4,14 @@
   "version": "5.2.0",
   "keywords": [
     "mapbox",
-    "mapbox-gl",
+    "mapbox-gl-rog",
     "react",
-    "react-mapbox-gl",
+    "react-mapbox-gl-rog",
     "react mapbox"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/visgl/react-map-gl.git"
+    "url": "https://github.com/l3git9/react-map-gl-rog"
   },
   "license": "MIT",
   "main": "dist/es5/index.js",

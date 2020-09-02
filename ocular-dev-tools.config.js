@@ -7,8 +7,8 @@ const config = {
   },
 
   alias: {
-    'react-map-gl/test': resolve('./test'),
-    'react-map-gl': resolve('./src')
+    'react-map-gl-rog/test': resolve('./test'),
+    'react-map-gl-rog': resolve('./src')
   },
 
   // https://github.com/puppeteer/puppeteer/issues/661#issuecomment-545757822

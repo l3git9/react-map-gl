@@ -83,7 +83,7 @@ export default class Marker extends DraggableControl<MarkerProps> {
       // Perf: avoid rerendering if only the viewport changed
       div.style.transform = transform;
     } else {
-      const {className, draggable} = this.props;
+      const {className, draggable, zIndex} = this.props;
       const {dragPos} = this.state;
 
       const containerStyle = {

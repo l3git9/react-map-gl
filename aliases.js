@@ -22,8 +22,8 @@
 const {resolve} = require('path');
 
 const ALIASES = {
-  'react-map-gl/test': resolve('./test'),
-  'react-map-gl': resolve('./src'),
+  'react-map-gl-rog/test': resolve('./test'),
+  'react-map-gl-rog': resolve('./src'),
   'mapbox-gl$': resolve('./node_modules/mapbox-gl/dist/mapbox-gl.js'),
   webworkify: 'webworkify-webpack-dropin'
 };
