@@ -41,7 +41,8 @@ const defaultProps = Object.assign({}, DraggableControl.defaultProps, {
 export type MarkerProps = DraggableControlProps & {
   className: string,
   longitude: number,
-  latitude: number
+  latitude: number,
+  zIndex: number,
 };
 
 /*
@@ -90,7 +91,8 @@ export default class Marker extends DraggableControl<MarkerProps> {
         left: 0,
         top: 0,
         transform,
-        cursor: draggable ? (dragPos ? 'grabbing' : 'grab') : 'auto'
+        cursor: draggable ? (dragPos ? 'grabbing' : 'grab') : 'auto',
+        zIndex: zIndex ? zIndex : "",
       };
 
       this._control = (
